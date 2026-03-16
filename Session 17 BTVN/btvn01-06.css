@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    background: #f3f3f3;
+}
+
+.container {
+    width: 550px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    background: #c92222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.stats {
+    text-align: center;
+    padding: 10px;
+    background: #efe8cf;
+    font-weight: bold;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background: #efe8cf;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.add-btn {
+    background: orange;
+}
+
+.clear-btn {
+    background: #d12a2a;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background: #f4eed7;
+    border-left: 6px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.done {
+    background: #cfd8d3;
+    border-left: 6px solid green;
+    text-decoration: line-through;
+}
+
+.actions span {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+}
+
+.empty {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
